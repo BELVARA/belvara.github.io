@@ -1,7 +1,26 @@
 #third-block .margin{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
+#second-block .tombol{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
 
+#second-block .button{
+    margin: 5px;
+}
 
+#second-block .button:hover{
+    background-color: rgba(181, 190, 4, 0.125);
+}
+
+@media screen and (max-width: 768px){
+    #third-block .margin{
+        display: flex;
+        flex-direction: column;
+    }
+}
