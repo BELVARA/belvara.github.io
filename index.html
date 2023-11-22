@@ -21,7 +21,11 @@
       <link rel="stylesheet" href="css/style.css">
    </head>
    <body class="size-1140">
-      <!-- TOP NAV WITH LOGO -->  
+      <!-- TOP NAV WITH LOGO --> 
+      
+      <!-- <div id="dialog" title="Basic dialog">
+         <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+      </div> -->
       <header>
          <nav>
             <div class="line">
@@ -94,7 +98,7 @@
                         </div>
                      </div>
                   </div>
-			    <div class="item">
+		      <div class="item">
                   <img src="img/third.jpg" alt="">      
                   <div class="carousel-text">
                      <div class="line">
@@ -120,8 +124,7 @@
                   <div class="s-12 m-6 l-3 margin-bottom">
                      <i class="icon-sli-people icon2x"></i>
                      <h3><b>LOKASI STRATEGIS</b></h3>
-                     <p>Hanya 2 Km. dari Alun-alun kota Sidoarjo, Hanya 300 m dari Sekolah TK, SD & SMA, Hanya 300 m dari praktek dokter, Hanya 2,5 Km. dari Rumah Sakit, Pasar Tradisonal & Minimarket, Bersebelahan dengan Taman Kota, Komplek pergudangan
-.</p>
+                     <p>Hanya 2 Km. dari Alun-alun kota Sidoarjo, Hanya 300 m dari Sekolah TK, SD & SMA, Hanya 300 m dari praktek dokter, Hanya 2,5 Km. dari Rumah Sakit, Pasar Tradisonal & Minimarket, Bersebelahan dengan Taman Kota, Komplek pergudangan.</p>
                   </div>
                   <div class="s-12 m-6 l-3 margin-bottom">
                      <i class="icon-sli-shield icon2x"></i>
@@ -150,6 +153,13 @@
                         <h1><b>STRATEGIS, TENANG & NYAMAN</b></h1>
                         <p class="margin-bottom">Berada di pusat kota Sidoarjo, Penyangga kota Surabaya, Terletak di kawasan jalur Lingkar Timur
                         </p>
+                        <!-- popup box -->
+                        <div class="popup-container" id="popupContainer">
+                           <div class="popup-content">
+                              <p id="popupText" style="color: rgb(44, 44, 44);">Konten popup pertama disini.</p>
+                                 <button onclick="openPopup()">OK</button>
+                           </div>
+                        </div>
                         <div class="tombol">
                            <a class="button rounded-btn submit-btn" href="https://www.google.co.id/maps/place/BELVARA+graha/@-7.4519308,112.7380389,15.75z/data=!4m5!3m4!1s0x2dd7e6c02b7b6779:0x6876b02e7b77e2aa!8m2!3d-7.4518242!4d112.7406949"><b><font color="#000000"><font size="5">LOKASI</font></font></b></a>
                            <a class="button rounded-btn submit-btn" href="https://www.btnproperti.co.id/tools/simulasi-kpr"><b><font color="#000000"><font size="5">BTN PROPERTI</font></font></b></a>  			
@@ -205,38 +215,43 @@
             </div>
          </div>
       </section>
-     
-               <font color="#FFFF00">	  <marquee scrolldelay="100"><strong><b><font size="3"><font color="#FF0000"><b><span style="font-family: Impact; font-weight: normal; font-style: normal; text-decoration: none;"><font size="7"><font color="#FFFF00"><font size="5"><span style="font-family: Arial, 'Arial Black'; font-weight: normal; font-style: normal; text-decoration: none;"><span style="font-family: Arial; font-weight: bold; font-style: normal; text-decoration: none;"><font color="#FFFFFF">Informasi Hubungi Marketing 08123 11111 067</font></span>   </span></font></font></font></span></b></font></font></b></strong></font> 
+   
+      <div class="scrolling-text">
+         <marquee behavior="" direction=""><p>Informasi Hubungi Marketing 08123 11111 067</p></marquee>
+      </div>
+               <!-- <font color="#FFFF00">
+                  <marquee scrolldelay="100"><strong><b><font size="3"><font color="#FF0000"><b><span style="font-family: Impact; font-weight: normal; font-style: normal; text-decoration: none;"><font size="7"><font color="#FFFF00"><font size="5"><span style="font-family: Arial, 'Arial Black'; font-weight: normal; font-style: normal; text-decoration: none;"><span style="font-family: Arial; font-weight: bold; font-style: normal; text-decoration: none;"><font color="#FFFFFF">Informasi Hubungi Marketing 08123 11111 067</font></span>   </span></font></font></font></span></b></font></font></b></strong></font> 
                </p>
             </div>
-         </div>
+         </div> -->
    
       <script type="text/javascript" src="js/responsee.js"></script> 
       <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>   
+      <script type="text/javascript" src="js/script.js"></script>
       <script type="text/javascript">
          jQuery(document).ready(function($) {  
             var owl = $('#header-carousel');
             owl.owlCarousel({
-              nav: true,
-              dots: false,
-              items: 1,
-              loop: true,
-              navText: ["&#xf007","&#xf006"],
-              autoplay: true,
-              autoplayTimeout: 4000
-           });
-           var owl = $('#news-carousel');
-           owl.owlCarousel({
-              nav: true,
-              dots: false,
-              items: 1,
-              loop: true,
-              navText: ["&#xf007","&#xf006"],
-              autoplay: true,
-              autoplayTimeout: 4000
-           });
+               nav: true,
+               dots: false,
+               items: 1,
+               loop: true,
+               navText: ["&#xf007","&#xf006"],
+               autoplay: true,
+               autoplayTimeout: 4000
+            });
+            var owl = $('#news-carousel');
+            owl.owlCarousel({
+               nav: true,
+               dots: false,
+               items: 1,
+               loop: true,
+               navText: ["&#xf007","&#xf006"],
+               autoplay: true,
+               autoplayTimeout: 4000
+            });
          });	
-          
+         
       </script> 
 
    </body>
