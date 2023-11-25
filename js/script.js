@@ -12,13 +12,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Fungsi untuk menampilkan pop-up
     window.openPopup = function() {
-        if (popupCount < 2) { // Jumlah pop-up yang diizinkan
+        if (popupCount < 3) { // Jumlah pop-up yang diizinkan
             popupContainer.style.display = "flex";
             // Ganti konten pop-up sesuai kebutuhan
             if (popupCount === 0) {
                 // popupText.textContent = "Konten pop-up pertama di sini.";
                 popupText.textContent = "Konten pop-up kedua di sini.";
-            } 
+            } else{
+                popupText.textContent = "Konten pop-up ketiga di sini.";
+            }
             popupCount++;
         } else {
             popupContainer.style.display = "none"; // Ganti dengan URL halaman berikutnya
