@@ -6,6 +6,7 @@ $( function() {
 document.addEventListener("DOMContentLoaded", function() {
     var popupContainer = document.getElementById("popupContainer");
     var popupText = document.getElementById("popupText");
+    // var popupimage = document.getElementById("popupimage");
     var popupCount = 0;
 
     popupContainer.style.display = "flex";
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             popupContainer.style.display = "flex";
             // Ganti konten pop-up sesuai kebutuhan
             if (popupCount === 0) {
-                // popupText.textContent = "Konten pop-up pertama di sini.";
+                // document.body.style.backgroundImage = "url('car3.gif')";
                 popupText.textContent = "Konten pop-up kedua di sini.";
             } else{
                 popupText.textContent = "Konten pop-up ketiga di sini.";
