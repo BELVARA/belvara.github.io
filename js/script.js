@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded", function() {
             popupContainer.style.display = "flex";
             // Ganti konten pop-up sesuai kebutuhan
             if (popupCount === 0) {
-                // popupText.textContent = "Konten pop-up pertama di sini.";
-                popupText.textContent = "Konten pop-up kedua di sini.";
+                // popupText.textContent = "";
+                popupText.textContent = "";
             } else{
-                popupText.textContent = "Konten pop-up ketiga di sini.";
+                popupText.textContent = "";
             }
             popupCount++;
         } else {
