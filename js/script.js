@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // Ganti konten pop-up sesuai kebutuhan
             if (popupCount === 0) {
                 // document.body.style.backgroundImage = "url('car3.gif')";
-                popupText.textContent = "Konten pop-up kedua di sini.";
+                // popupText.textContent = "Konten pop-up kedua di sini.";
             } else{
-                popupText.textContent = "Konten pop-up ketiga di sini.";
+                // popupText.textContent = "Konten pop-up ketiga di sini.";
             }
             popupCount++;
         } else {
