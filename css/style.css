@@ -59,9 +59,18 @@
     }
 }
 
+@media screen and (max-width : 430px){
+    .popup-container{
+        display: none !important;
+    }
+
+    .popup-content{
+        display: none;
+    }
+}
+
 /* POP UP BOX */
 .popup-container {
-    display: none;
     position: fixed;
     top: 0;
     left: 0;

@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             popupContainer.style.display = "none"; // Ganti dengan URL halaman berikutnya
             // alert("Anda sudah menampilkan pop-up sebanyak 2 kali.");
         }
+        
     }
     // // Fungsi untuk menutup pop-up dan mengarahkan ke halaman berikutnya
     // window.closePopup = function() {
