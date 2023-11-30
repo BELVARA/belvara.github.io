@@ -13,21 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Fungsi untuk menampilkan pop-up
     window.openPopup = function() {
-        if (popupCount < 3) { // Jumlah pop-up yang diizinkan
+        if (popupCount < 1) { // Jumlah pop-up yang diizinkan
             popupContainer.style.display = "flex";
             // Ganti konten pop-up sesuai kebutuhan
             if (popupCount === 0) {
-                // document.body.style.backgroundImage = "url('car3.gif')";
-                // popupText.textContent = "Konten pop-up kedua di sini.";
-            } else{
-                // popupText.textContent = "Konten pop-up ketiga di sini.";
-            }
-            popupCount++;
-        } else {
-            popupContainer.style.display = "none"; // Ganti dengan URL halaman berikutnya
-            // alert("Anda sudah menampilkan pop-up sebanyak 2 kali.");
-        }
-        
+                // document.body.style.backgroundImage = "url('gif1.gif')";
+                
+       
     }
     // // Fungsi untuk menutup pop-up dan mengarahkan ke halaman berikutnya
     // window.closePopup = function() {
