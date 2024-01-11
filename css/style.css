@@ -57,7 +57,7 @@
 
 
 .popup-content {
-    background-image: url("../img/gif2_rumah_siap_huni_ke2.gif");
+    background-image: url("../img/gif_feb2024_650.gif");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -134,7 +134,7 @@ button:hover{
     
     .popup-content {
         background-repeat: no-repeat;
-        background-image: url("../img/gif2_rumah_siap_huni_ke2_300.gif");
+        background-image: url("../img/gif_feb2024_300.gif");
         width: 300px;
         height: 400px;
         padding: 20px;
