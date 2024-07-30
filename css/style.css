@@ -97,12 +97,12 @@ button:hover{
     z-index: 2;
     position: fixed;
     top: 85%;
-    left: 75%;
+    right: 15%;
 }
 
 /* atur panjang gambar wa */
-.wa img{
-    height: 70px;
+.wa img{8
+    height: 80px;
 }
 
 @media screen and (max-width: 992px){
