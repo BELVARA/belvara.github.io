@@ -96,8 +96,8 @@ button:hover{
 .wa{
     z-index: 2;
     position: fixed;
-    top: 70%;
-    right: 15%;
+    top: 85%;
+    left: 15%;
 }
 
 /* atur panjang gambar wa */
