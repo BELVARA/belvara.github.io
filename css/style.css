@@ -61,7 +61,7 @@ section{
 
 
 .popup-content {
-    background-image: url("../img/agustus2024650-Ke-2.gif");
+    background-image: url("../img/agustus2024.mp4");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -155,7 +155,7 @@ button:hover{
     
     .popup-content {
         background-repeat: no-repeat;
-        background-image: url("../img/agustus2024300-Ke-2.gif");
+        background-image: url("../img/img/agustus2024.mp4");
         width: 300px;
         height: 400px;
         padding: 20px;
